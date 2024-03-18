@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # Assuming these are the URLs to your Flask app hosted on EC2
-UPLOAD_URL = "http://your-ec2-instance-public-dns.amazonaws.com/upload"
-ASK_URL = "http://your-ec2-instance-public-dns.amazonaws.com/ask"
+UPLOAD_URL = "http://34.207.110.38:8502/upload"
+ASK_URL = "http://34.207.110.38:8502/ask"
 
 st.title('Chatbot Interface')
 
